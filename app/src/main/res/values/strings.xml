@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">DropLink</string>
+
+    <!-- Common actions -->
+    <string name="action_send">Send</string>
+    <string name="action_receive">Receive</string>
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_cancel_transfer">Cancel transfer</string>
+    <string name="action_keep_going">Keep going</string>
+    <string name="action_accept">Accept</string>
+    <string name="action_decline">Decline</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_not_now">Not now</string>
+    <string name="action_open_settings">Open settings</string>
+    <string name="action_open_location_settings">Turn on location</string>
+    <string name="action_grant">Allow</string>
+    <string name="action_retry">Try again</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_show">Show</string>
+    <string name="action_done">Done</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_open">Open</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_ok">OK</string>
+    <string name="action_remove_item">Remove %1$s</string>
+
+    <!-- Home -->
+    <string name="home_tagline">Share files with nearby phones. No internet, no account, no ads.</string>
+    <string name="home_send_hint">Photos, videos, files, folders or apps</string>
+    <string name="home_receive_hint">Let nearby phones send to you</string>
+    <string name="home_receiving_on">Receiving…</string>
+    <string name="home_active_send">Sending to %1$s</string>
+    <string name="home_active_receive">Receiving from %1$s</string>
+    <string name="home_active_progress">%1$s of %2$s</string>
+    <string name="home_mode_title">Connection: %1$s</string>
+    <string name="home_mode_wifi">Fastest: phone-to-phone direct link (no router). DropLink creates it automatically; the router is only a fallback.</string>
+    <string name="home_mode_no_wifi">No Wi-Fi network: DropLink will use Wi-Fi Direct or the receiver’s QR code. No SIM data is used.</string>
+    <string name="home_setup_title">Keep transfers running</string>
+    <string name="home_setup_body">%1$s phones can stop apps in the background. Two quick settings fix it.</string>
+    <string name="home_recent">Recent devices</string>
+
+    <!-- Modes -->
+    <string name="mode_auto">Automatic</string>
+    <string name="mode_lan">Same Wi-Fi</string>
+    <string name="mode_wifi_direct">Direct (Wi-Fi Direct)</string>
+    <string name="mode_qr">QR hotspot</string>
+
+    <!-- Send -->
+    <string name="send_title">Send</string>
+    <string name="send_tab_files">Files</string>
+    <string name="send_tab_apps">Apps</string>
+    <string name="send_pick_media">Photos &amp; videos</string>
+    <string name="send_pick_files">Documents</string>
+    <string name="send_pick_folder">Folder</string>
+    <string name="send_nothing_selected">Nothing selected yet</string>
+    <string name="send_selected_summary">%1$s · %2$s</string>
+    <string name="send_more_files">…and %1$d more</string>
+    <string name="send_nearby">Send to</string>
+    <string name="send_scan_qr">Scan receiver’s QR code</string>
+    <string name="send_searching">Looking for nearby phones</string>
+    <string name="send_no_peers">Looking for phones in Receive mode… If nothing shows up, scan the receiver’s QR code.</string>
+    <string name="send_pick_first">Pick what to send first, then choose a phone.</string>
+    <string name="send_to">Send to %1$s</string>
+    <string name="send_apps_note">Shares the app’s main APK. Apps installed from bundles (split APKs) may not install from it alone.</string>
+    <string name="share_nothing">Couldn’t read the shared files.</string>
+    <string name="share_text_unsupported">DropLink sends files, not text.</string>
+
+    <!-- Receive -->
+    <string name="receive_title">Receive</string>
+    <string name="receive_visible_as">Other phones see you as</string>
+    <string name="receive_off">Receive mode is off.</string>
+    <string name="receive_start">Start receiving</string>
+    <string name="receive_stop">Stop receiving</string>
+    <string name="receive_waiting">Waiting for files…</string>
+    <string name="receive_qr_toggle">Show QR code</string>
+    <string name="receive_qr_toggle_hint">This phone runs its own fast Wi-Fi network. The sender joins it directly: no router, no SIM.</string>
+    <string name="receive_qr_cd">QR code for the sending phone to scan</string>
+    <string name="receive_qr_instructions">On the other phone: Send → pick files → Scan receiver’s QR code.</string>
+    <string name="receive_qr_failed">Couldn’t start the QR hotspot</string>
+    <string name="receive_tip_title">Tip</string>
+    <string name="receive_tip_body">Tap this phone’s name on the sender, or scan the QR code. Android asks once to connect to “DIRECT-…”: tap Connect. Data then goes phone to phone directly.</string>
+    <string name="receive_setup_link">Transfers stop in the background? Set up this phone</string>
+    <string name="state_ready">Ready</string>
+    <string name="state_starting">Starting…</string>
+    <string name="state_unavailable">Not available</string>
+    <string name="state_off">Off</string>
+    <string name="state_on">On</string>
+
+    <!-- Incoming request -->
+    <string name="incoming_title">Incoming files</string>
+    <string name="incoming_summary">%1$s wants to send you %2$s (%3$s).</string>
+    <string name="incoming_body">%1$s wants to send %2$s (%3$s). Code %4$s.</string>
+    <string name="incoming_code_hint">Accept only if the sending phone shows the same code.</string>
+    <string name="incoming_trust">Always accept from this phone</string>
+
+    <!-- Transfer -->
+    <string name="transfer_title">Transfer</string>
+    <string name="transfer_none">No transfer in progress.</string>
+    <string name="transfer_via">Via %1$s</string>
+    <string name="transfer_code_label">Code</string>
+    <string name="transfer_code_hint_sender">The receiving phone shows this code. If it’s different, cancel.</string>
+    <string name="transfer_code_hint_receiver">Matches the code on the sending phone.</string>
+    <string name="transfer_bytes">%1$s of %2$s</string>
+    <string name="transfer_average">Average speed: %1$s</string>
+    <string name="transfer_saved_to">Saved to Download/DropLink (or your chosen folder).</string>
+    <string name="transfer_partial_body">Files marked with ✗ failed their SHA-256 check and were not kept. Send them again.</string>
+    <string name="transfer_declined_body">The other phone declined the files.</string>
+    <string name="transfer_cancelled_body">The transfer was cancelled.</string>
+    <string name="transfer_needs_qr_title">Scan the receiver’s QR code</string>
+    <string name="transfer_needs_qr_body">Couldn’t connect directly. On the receiving phone, turn on “Show QR code”, then scan it.</string>
+    <string name="cancel_confirm_title">Cancel transfer?</string>
+    <string name="cancel_confirm_body">Files already received are kept. The file in progress is discarded.</string>
+    <string name="file_verified">Done · checksum OK</string>
+    <string name="file_already_there">Already received</string>
+    <string name="file_failed">Failed: %1$s</string>
+    <string name="file_failed_unknown">unknown error</string>
+    <string name="format_speed">%1$s/s</string>
+    <string name="format_eta">%1$s left</string>
+    <string name="format_mbps">%1$.1f MB/s</string>
+    <string name="eta_unknown">Estimating…</string>
+
+    <!-- Phases -->
+    <string name="phase_connecting">Connecting…</string>
+    <string name="phase_needs_qr">Waiting for QR scan</string>
+    <string name="phase_waiting_approval">Waiting for the other phone to accept…</string>
+    <string name="phase_transferring">Transferring</string>
+    <string name="phase_reconnecting">Connection dropped. Reconnecting to resume…</string>
+    <string name="phase_completed">Done</string>
+    <string name="phase_partial">Done with errors</string>
+    <string name="phase_failed">Transfer failed</string>
+    <string name="phase_cancelled">Cancelled</string>
+    <string name="phase_declined">Declined</string>
+    <string name="done_sent">All files sent</string>
+    <string name="done_received">All files received</string>
+    <string name="done_partial">%1$d file(s) failed the checksum</string>
+    <string name="done_body">%1$s · %2$s · %3$s</string>
+
+    <!-- Errors -->
+    <string name="err_wifi_off">Wi-Fi is off. Turn on Wi-Fi (you don’t need to join a network).</string>
+    <string name="err_location_off">Location is off. Android 8–12 needs it on to find nearby phones.</string>
+    <string name="err_permission">DropLink isn’t allowed to use nearby Wi-Fi devices. Allow it, or use the same Wi-Fi network.</string>
+    <string name="err_wfd_unsupported">Wi-Fi Direct is blocked on this phone. Use QR mode.</string>
+    <string name="err_wfd_busy">Wi-Fi Direct is busy (another app or a hotspot may be using it). Use QR mode.</string>
+    <string name="err_wfd_failed">Wi-Fi Direct failed on this phone. Use QR mode.</string>
+    <string name="err_wfd_timeout">Wi-Fi Direct didn’t connect in time. Use QR mode.</string>
+    <string name="err_hotspot_incompatible">Turn off your regular mobile hotspot first, then try again.</string>
+    <string name="err_hotspot_not_allowed">This phone doesn’t allow hotspots (device policy). Try Wi-Fi Direct or the same Wi-Fi.</string>
+    <string name="err_hotspot_failed">The phone couldn’t start a hotspot. Turn Wi-Fi off and on, then try again.</string>
+    <string name="err_join_rejected">Couldn’t join the receiver’s hotspot. Tap “Connect” when Android asks, and stay close.</string>
+    <string name="err_join_failed">Couldn’t join the receiver’s hotspot. Make sure Wi-Fi is on and the QR code is still showing.</string>
+    <string name="err_no_peer_address">The other phone didn’t share its address.</string>
+    <string name="err_peer_cancelled">The other phone cancelled.</string>
+    <string name="err_no_answer">The other phone didn’t answer in time.</string>
+    <string name="err_connection_lost">The connection was lost and couldn’t be resumed.</string>
+    <string name="err_could_not_connect">Couldn’t reach the other phone. Try the QR code.</string>
+    <string name="err_key_mismatch">Security check failed: this isn’t the phone from the QR code. Transfer stopped.</string>
+    <string name="err_busy">The other phone is busy with another transfer.</string>
+    <string name="err_incompatible">The phones run incompatible DropLink versions. Update both.</string>
+    <string name="err_other">Something went wrong: %1$s</string>
+    <string name="qr_invalid">That’s not a DropLink QR code.</string>
+    <string name="scan_prompt">Scan the QR code on the receiving phone</string>
+
+    <!-- Permissions (rationale shown before each system prompt) -->
+    <string name="perm_nearby_title">Nearby Wi-Fi devices</string>
+    <string name="perm_nearby_body_send">Lets DropLink find nearby phones with Wi-Fi Direct and join a receiver’s QR hotspot. DropLink never uses your location.</string>
+    <string name="perm_nearby_body_receive">Lets this phone be found with Wi-Fi Direct and start a private QR hotspot. DropLink never uses your location.</string>
+    <string name="perm_location_body_send">On Android 8–12, finding phones with Wi-Fi Direct and joining a QR hotspot requires the location permission. DropLink never reads or stores your location.</string>
+    <string name="perm_location_body_receive">On Android 8–12, Wi-Fi Direct and the QR hotspot require the location permission. DropLink never reads or stores your location.</string>
+    <string name="perm_location_switch_title">Turn on location</string>
+    <string name="perm_location_switch_body">Android 8–12 only finds nearby Wi-Fi devices while location is switched on. You can turn it off again after the transfer.</string>
+    <string name="perm_camera_title">Camera</string>
+    <string name="perm_camera_body">Used only to scan the receiver’s QR code. Nothing is recorded or stored.</string>
+    <string name="perm_notifications_title">Notifications</string>
+    <string name="perm_notifications_body">Shows transfer progress with a Cancel button, and lets you accept incoming files when DropLink isn’t open.</string>
+    <string name="perm_storage_title">Storage</string>
+    <string name="perm_storage_body">On Android 8–9, needed to save received files in Download/DropLink.</string>
+    <string name="perm_open_settings_hint">You denied this before. Allow it in DropLink’s settings → Permissions.</string>
+
+    <!-- History -->
+    <string name="history_title">History</string>
+    <string name="history_tab_files">Files</string>
+    <string name="history_tab_speed">Speed log</string>
+    <string name="history_empty">Nothing here yet.</string>
+    <string name="history_sent">Sent</string>
+    <string name="history_received">Received</string>
+    <string name="history_clear">Clear history</string>
+    <string name="history_clear_body">Removes the list only. Received files stay on your phone.</string>
+    <string name="history_delete_title">Delete %1$s?</string>
+    <string name="history_delete_file_body">Delete the file from this phone, or only remove it from the history list?</string>
+    <string name="history_delete_entry_body">Remove this entry from the history list? The original file is not touched.</string>
+    <string name="history_remove_entry_only">Only remove from list</string>
+    <string name="history_cant_open">That file can’t be opened (it may have been moved or deleted).</string>
+    <string name="history_actions">Actions for %1$s</string>
+    <string name="history_speed_note">Average measured speed per transfer. The direct link on 5 GHz is usually the fastest; going through a router is slower.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_device">This phone</string>
+    <string name="settings_device_name">Device name</string>
+    <string name="settings_device_name_hint">Shown to other phones</string>
+    <string name="settings_save_location">Save received files to</string>
+    <string name="settings_save_default">Download/DropLink</string>
+    <string name="settings_save_note">Pick any folder, including an SD card. DropLink never asks for full storage access.</string>
+    <string name="settings_section_trusted">Trusted devices</string>
+    <string name="settings_auto_accept">Auto-accept from trusted devices</string>
+    <string name="settings_auto_accept_hint">Skips the accept dialog for phones you marked “Always accept”. Off by default.</string>
+    <string name="settings_no_trusted">No trusted devices. Tick “Always accept from this phone” when accepting files.</string>
+    <string name="settings_key">Key %1$s</string>
+    <string name="settings_untrust">Stop trusting %1$s</string>
+    <string name="settings_section_connection">Connection mode</string>
+    <string name="settings_mode_note">Automatic: direct phone-to-phone link first (fastest), then the shared Wi-Fi router, then the QR code.</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_language">Language</string>
+    <string name="language_system">System default</string>
+    <string name="settings_section_reliability">Reliability</string>
+    <string name="settings_setup_hint">Battery and autostart settings for your phone brand</string>
+    <string name="selftest_title">Run self-test</string>
+    <string name="selftest_hint">Sends 32 MB to itself over an encrypted connection and saves it like a real transfer, to check this phone.</string>
+    <string name="selftest_ok">Passed · %1$s on this phone</string>
+    <string name="selftest_failed">Failed: %1$s</string>
+    <string name="about_version">DropLink %1$s</string>
+    <string name="about_body">Offline file sharing. No internet, no account, no ads, no tracking.</string>
+
+    <!-- Phone setup -->
+    <string name="setup_title">Phone setup</string>
+    <string name="setup_detected">Detected: %1$s</string>
+    <string name="setup_intro">Some phones stop apps in the background to save battery, which cuts transfers off. Do these steps once.</string>
+    <string name="setup_battery_title">1. Battery optimization</string>
+    <string name="setup_battery_body">Allow DropLink to run without battery restrictions.</string>
+    <string name="setup_battery_done">Done: DropLink is not battery-restricted.</string>
+    <string name="setup_battery_action">Remove restriction</string>
+    <string name="setup_autostart_title">2. Autostart and background</string>
+    <string name="setup_autostart_action">Open autostart settings</string>
+    <string name="setup_app_settings_action">Open app settings</string>
+    <string name="setup_lock_title">3. Lock DropLink in recent apps</string>
+    <string name="setup_lock_body">Open the recent-apps screen, press and hold DropLink (or swipe it down) and tap the lock icon, so “clear all” doesn’t close it.</string>
+    <string name="setup_wifi_body">Needed for Wi-Fi Direct and QR mode.</string>
+    <string name="setup_footer">Menu names differ between ROM versions. If a button opens the wrong screen, look for “Autostart”, “App launch”, “Background activity” or “Battery” in Settings.</string>
+
+    <string name="oem_xiaomi">Xiaomi / Redmi / POCO</string>
+    <string name="oem_huawei">Huawei</string>
+    <string name="oem_honor">Honor</string>
+    <string name="oem_oppo">OPPO / realme / OnePlus</string>
+    <string name="oem_vivo">vivo / iQOO</string>
+    <string name="oem_samsung">Samsung</string>
+    <string name="oem_transsion">Tecno / Infinix / itel</string>
+    <string name="oem_other">Your phone</string>
+    <string name="oem_steps_xiaomi">Security app → Permissions → Autostart → turn on DropLink. Then Settings → Apps → DropLink → Battery saver → “No restrictions”.</string>
+    <string name="oem_steps_huawei">Phone Manager → App launch → DropLink → turn off “Manage automatically”, then turn on Auto-launch, Secondary launch and Run in background.</string>
+    <string name="oem_steps_honor">Settings → Battery → App launch → DropLink → switch to manual and allow all three options.</string>
+    <string name="oem_steps_oppo">Settings → Apps → DropLink → Battery usage → allow background activity and auto launch. On older ColorOS: Phone Manager → Privacy permissions → Startup manager.</string>
+    <string name="oem_steps_vivo">i Manager → App manager → Autostart → turn on DropLink. Settings → Battery → Background power consumption → allow DropLink.</string>
+    <string name="oem_steps_samsung">Settings → Battery → Background usage limits → make sure DropLink is not in “Sleeping apps” or “Deep sleeping apps”.</string>
+    <string name="oem_steps_transsion">Phone Master → App management → Auto-start → turn on DropLink. Also lock DropLink in recent apps.</string>
+    <string name="oem_steps_other">Settings → Apps → DropLink → Battery → Unrestricted. If your phone has an Autostart menu, turn DropLink on there.</string>
+
+    <!-- Notifications -->
+    <string name="channel_active">Active transfers</string>
+    <string name="channel_requests">Incoming file requests</string>
+    <string name="channel_finished">Finished transfers</string>
+    <string name="notif_sending_to">Sending to %1$s</string>
+    <string name="notif_receiving_from">Receiving from %1$s</string>
+    <string name="notif_progress_detail">%1$s of %2$s · %3$s · %4$s</string>
+    <string name="notif_ready_title">Ready to receive</string>
+    <string name="notif_ready_text">Visible as “%1$s”</string>
+
+    <!-- Quick Settings tile -->
+    <string name="tile_label">DropLink receive</string>
+    <string name="tile_on">On</string>
+    <string name="tile_off">Off</string>
+    <string name="tile_on_cd">DropLink receive mode is on. Tap to stop.</string>
+    <string name="tile_off_cd">DropLink receive mode is off. Tap to start.</string>
+
+    <plurals name="file_count">
+        <item quantity="one">%d file</item>
+        <item quantity="other">%d files</item>
+    </plurals>
+    <plurals name="files_done">
+        <item quantity="one">%1$d of %2$d file</item>
+        <item quantity="other">%1$d of %2$d files</item>
+    </plurals>
+
+    <!-- Diagnostics -->
+    <string name="diag_copy">Copy diagnostic log</string>
+    <string name="diag_copy_hint">If something fails, copy this and send it to the developer. It contains no file contents.</string>
+    <string name="diag_copied">Log copied</string>
+    <string name="receive_direct_band">Direct network on %1$s</string>
+    <string name="receive_direct_slow_band">This phone only managed 2.4 GHz, so speed may be lower.</string>
+    <!-- USB cable mode -->
+    <string name="mode_usb">USB cable</string>
+    <string name="usb_tip_title">Fastest: connect a USB cable</string>
+    <string name="usb_tip_body">Connect the two phones with a USB-C to USB-C cable (or an OTG adapter) and open DropLink on both. A cable is 10+ MB/s even on phones with slow Wi-Fi.</string>
+    <string name="usb_permission_title">Allow USB access</string>
+    <string name="usb_permission_body">Tap “OK” / “Allow” in the USB dialog on both phones. If you don’t see it, unplug and plug the cable in again.</string>
+    <string name="usb_connecting">Connecting over USB…</string>
+    <string name="usb_connecting_body">Keep both phones unlocked. The other phone may ask to open DropLink: tap OK.</string>
+    <string name="usb_open_app_body">Open DropLink on the other phone and allow it to use the USB accessory.</string>
+    <string name="usb_connected_to">USB cable: %1$s</string>
+    <string name="usb_tap_receive_body">Tap Receive on that phone, then send from here.</string>
+    <string name="usb_ready_body">Ready. Tap its name below to send over the cable.</string>
+    <string name="usb_failed">USB cable didn’t work</string>
+    <string name="usb_not_connected">No cable connected</string>
+</resources>

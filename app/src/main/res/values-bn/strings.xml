@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common actions -->
+    <string name="action_send">পাঠান</string>
+    <string name="action_receive">গ্রহণ করুন</string>
+    <string name="action_back">ফিরে যান</string>
+    <string name="action_cancel">বাতিল</string>
+    <string name="action_cancel_transfer">ট্রান্সফার বাতিল করুন</string>
+    <string name="action_keep_going">চালিয়ে যান</string>
+    <string name="action_accept">গ্রহণ করুন</string>
+    <string name="action_decline">প্রত্যাখ্যান</string>
+    <string name="action_continue">চালিয়ে যান</string>
+    <string name="action_not_now">এখন না</string>
+    <string name="action_open_settings">সেটিংস খুলুন</string>
+    <string name="action_open_location_settings">লোকেশন চালু করুন</string>
+    <string name="action_grant">অনুমতি দিন</string>
+    <string name="action_retry">আবার চেষ্টা করুন</string>
+    <string name="action_stop">বন্ধ করুন</string>
+    <string name="action_show">দেখুন</string>
+    <string name="action_done">সম্পন্ন</string>
+    <string name="action_clear">মুছে ফেলুন</string>
+    <string name="action_open">খুলুন</string>
+    <string name="action_share">শেয়ার</string>
+    <string name="action_delete">ডিলিট</string>
+    <string name="action_save">সেভ করুন</string>
+    <string name="action_reset">রিসেট</string>
+    <string name="action_ok">ঠিক আছে</string>
+    <string name="action_remove_item">%1$s সরান</string>
+
+    <!-- Home -->
+    <string name="home_tagline">কাছের ফোনে ফাইল শেয়ার করুন। ইন্টারনেট, অ্যাকাউন্ট বা বিজ্ঞাপন—কিছুই লাগে না।</string>
+    <string name="home_send_hint">ছবি, ভিডিও, ফাইল, ফোল্ডার বা অ্যাপ</string>
+    <string name="home_receive_hint">কাছের ফোন থেকে ফাইল নিন</string>
+    <string name="home_receiving_on">গ্রহণ করা হচ্ছে…</string>
+    <string name="home_active_send">%1$s-এ পাঠানো হচ্ছে</string>
+    <string name="home_active_receive">%1$s থেকে আসছে</string>
+    <string name="home_active_progress">%2$s-এর মধ্যে %1$s</string>
+    <string name="home_mode_title">সংযোগ: %1$s</string>
+    <string name="home_mode_wifi">সবচেয়ে দ্রুত: ফোন থেকে ফোনে সরাসরি সংযোগ (রাউটার ছাড়া)। DropLink নিজেই এটি তৈরি করে; রাউটার শুধু বিকল্প।</string>
+    <string name="home_mode_no_wifi">কোনো Wi-Fi নেটওয়ার্ক নেই: DropLink Wi-Fi Direct বা প্রাপকের QR কোড ব্যবহার করবে। মোবাইল ডেটা খরচ হবে না।</string>
+    <string name="home_setup_title">ট্রান্সফার চালু রাখুন</string>
+    <string name="home_setup_body">%1$s ফোন ব্যাকগ্রাউন্ডে অ্যাপ বন্ধ করে দিতে পারে। দুটি ছোট সেটিং ঠিক করলেই হবে।</string>
+    <string name="home_recent">সাম্প্রতিক ডিভাইস</string>
+
+    <!-- Modes -->
+    <string name="mode_auto">স্বয়ংক্রিয়</string>
+    <string name="mode_lan">একই Wi-Fi</string>
+    <string name="mode_wifi_direct">সরাসরি (Wi-Fi Direct)</string>
+    <string name="mode_qr">QR হটস্পট</string>
+
+    <!-- Send -->
+    <string name="send_title">পাঠান</string>
+    <string name="send_tab_files">ফাইল</string>
+    <string name="send_tab_apps">অ্যাপ</string>
+    <string name="send_pick_media">ছবি ও ভিডিও</string>
+    <string name="send_pick_files">ডকুমেন্ট</string>
+    <string name="send_pick_folder">ফোল্ডার</string>
+    <string name="send_nothing_selected">এখনও কিছু বাছাই করা হয়নি</string>
+    <string name="send_selected_summary">%1$s · %2$s</string>
+    <string name="send_more_files">…আরও %1$dটি</string>
+    <string name="send_nearby">যাকে পাঠাবেন</string>
+    <string name="send_scan_qr">প্রাপকের QR কোড স্ক্যান করুন</string>
+    <string name="send_searching">কাছের ফোন খোঁজা হচ্ছে</string>
+    <string name="send_no_peers">গ্রহণ মোডে থাকা ফোন খোঁজা হচ্ছে… কিছু না দেখালে প্রাপকের QR কোড স্ক্যান করুন।</string>
+    <string name="send_pick_first">আগে কী পাঠাবেন তা বাছাই করুন, তারপর ফোন বেছে নিন।</string>
+    <string name="send_to">%1$s-এ পাঠান</string>
+    <string name="send_apps_note">অ্যাপের মূল APK পাঠানো হয়। বান্ডেল (split APK) থেকে ইনস্টল করা অ্যাপ শুধু এটা দিয়ে ইনস্টল নাও হতে পারে।</string>
+    <string name="share_nothing">শেয়ার করা ফাইল পড়া যায়নি।</string>
+    <string name="share_text_unsupported">DropLink ফাইল পাঠায়, লেখা নয়।</string>
+
+    <!-- Receive -->
+    <string name="receive_title">গ্রহণ করুন</string>
+    <string name="receive_visible_as">অন্য ফোনে আপনার নাম</string>
+    <string name="receive_off">গ্রহণ মোড বন্ধ আছে।</string>
+    <string name="receive_start">গ্রহণ শুরু করুন</string>
+    <string name="receive_stop">গ্রহণ বন্ধ করুন</string>
+    <string name="receive_waiting">ফাইলের অপেক্ষায়…</string>
+    <string name="receive_qr_toggle">QR কোড দেখান</string>
+    <string name="receive_qr_toggle_hint">এই ফোন নিজের দ্রুত Wi-Fi নেটওয়ার্ক চালায়। পাঠানোর ফোন সরাসরি যুক্ত হয়: রাউটার বা সিম লাগে না।</string>
+    <string name="receive_qr_cd">পাঠানোর ফোনে স্ক্যান করার QR কোড</string>
+    <string name="receive_qr_instructions">অন্য ফোনে: পাঠান → ফাইল বাছাই → প্রাপকের QR কোড স্ক্যান করুন।</string>
+    <string name="receive_qr_failed">QR হটস্পট চালু করা যায়নি</string>
+    <string name="receive_tip_title">টিপস</string>
+    <string name="receive_tip_body">পাঠানোর ফোনে এই ফোনের নামে চাপুন, বা QR কোড স্ক্যান করুন। Android একবার “DIRECT-…”-এ যুক্ত হতে জিজ্ঞেস করবে: Connect চাপুন। তারপর ডেটা সরাসরি ফোন থেকে ফোনে যাবে।</string>
+    <string name="receive_setup_link">ব্যাকগ্রাউন্ডে ট্রান্সফার থেমে যায়? ফোন সেটআপ করুন</string>
+    <string name="state_ready">প্রস্তুত</string>
+    <string name="state_starting">চালু হচ্ছে…</string>
+    <string name="state_unavailable">পাওয়া যাচ্ছে না</string>
+    <string name="state_off">বন্ধ</string>
+    <string name="state_on">চালু</string>
+
+    <!-- Incoming request -->
+    <string name="incoming_title">ফাইল আসছে</string>
+    <string name="incoming_summary">%1$s আপনাকে %2$s (%3$s) পাঠাতে চায়।</string>
+    <string name="incoming_body">%1$s %2$s (%3$s) পাঠাতে চায়। কোড %4$s।</string>
+    <string name="incoming_code_hint">পাঠানোর ফোনে একই কোড দেখালে তবেই গ্রহণ করুন।</string>
+    <string name="incoming_trust">এই ফোন থেকে সবসময় গ্রহণ করুন</string>
+
+    <!-- Transfer -->
+    <string name="transfer_title">ট্রান্সফার</string>
+    <string name="transfer_none">কোনো ট্রান্সফার চলছে না।</string>
+    <string name="transfer_via">মাধ্যম: %1$s</string>
+    <string name="transfer_code_label">কোড</string>
+    <string name="transfer_code_hint_sender">প্রাপকের ফোনেও এই কোড দেখায়। আলাদা হলে বাতিল করুন।</string>
+    <string name="transfer_code_hint_receiver">পাঠানোর ফোনের কোডের সাথে মিলেছে।</string>
+    <string name="transfer_bytes">%2$s-এর মধ্যে %1$s</string>
+    <string name="transfer_average">গড় গতি: %1$s</string>
+    <string name="transfer_saved_to">Download/DropLink-এ (বা আপনার বাছাই করা ফোল্ডারে) সেভ হয়েছে।</string>
+    <string name="transfer_partial_body">✗ চিহ্নিত ফাইলগুলো SHA-256 যাচাইয়ে ব্যর্থ হয়েছে, তাই রাখা হয়নি। আবার পাঠান।</string>
+    <string name="transfer_declined_body">অন্য ফোনটি ফাইলগুলো প্রত্যাখ্যান করেছে।</string>
+    <string name="transfer_cancelled_body">ট্রান্সফার বাতিল করা হয়েছে।</string>
+    <string name="transfer_needs_qr_title">প্রাপকের QR কোড স্ক্যান করুন</string>
+    <string name="transfer_needs_qr_body">সরাসরি যুক্ত হওয়া যায়নি। প্রাপকের ফোনে “QR কোড দেখান” চালু করে সেটি স্ক্যান করুন।</string>
+    <string name="cancel_confirm_title">ট্রান্সফার বাতিল করবেন?</string>
+    <string name="cancel_confirm_body">যে ফাইলগুলো এসে গেছে সেগুলো থাকবে। চলমান ফাইলটি বাদ যাবে।</string>
+    <string name="file_verified">সম্পন্ন · চেকসাম ঠিক আছে</string>
+    <string name="file_already_there">আগেই এসেছে</string>
+    <string name="file_failed">ব্যর্থ: %1$s</string>
+    <string name="file_failed_unknown">অজানা ত্রুটি</string>
+    <string name="format_speed">%1$s/সে</string>
+    <string name="format_eta">%1$s বাকি</string>
+    <string name="format_mbps">%1$.1f MB/সে</string>
+    <string name="eta_unknown">হিসাব করা হচ্ছে…</string>
+
+    <!-- Phases -->
+    <string name="phase_connecting">সংযোগ হচ্ছে…</string>
+    <string name="phase_needs_qr">QR স্ক্যানের অপেক্ষায়</string>
+    <string name="phase_waiting_approval">অন্য ফোনের অনুমতির অপেক্ষায়…</string>
+    <string name="phase_transferring">পাঠানো হচ্ছে</string>
+    <string name="phase_reconnecting">সংযোগ বিচ্ছিন্ন। আবার যুক্ত হয়ে বাকিটা পাঠানো হবে…</string>
+    <string name="phase_completed">সম্পন্ন</string>
+    <string name="phase_partial">কিছু ত্রুটিসহ সম্পন্ন</string>
+    <string name="phase_failed">ট্রান্সফার ব্যর্থ</string>
+    <string name="phase_cancelled">বাতিল হয়েছে</string>
+    <string name="phase_declined">প্রত্যাখ্যাত</string>
+    <string name="done_sent">সব ফাইল পাঠানো হয়েছে</string>
+    <string name="done_received">সব ফাইল এসেছে</string>
+    <string name="done_partial">%1$dটি ফাইল চেকসাম যাচাইয়ে ব্যর্থ</string>
+    <string name="done_body">%1$s · %2$s · %3$s</string>
+
+    <!-- Errors -->
+    <string name="err_wifi_off">Wi-Fi বন্ধ। Wi-Fi চালু করুন (কোনো নেটওয়ার্কে যুক্ত হওয়ার দরকার নেই)।</string>
+    <string name="err_location_off">লোকেশন বন্ধ। কাছের ফোন খুঁজতে Android 8–12-এ এটি চালু থাকা দরকার।</string>
+    <string name="err_permission">DropLink-কে কাছের Wi-Fi ডিভাইস ব্যবহারের অনুমতি দেওয়া হয়নি। অনুমতি দিন, অথবা একই Wi-Fi নেটওয়ার্ক ব্যবহার করুন।</string>
+    <string name="err_wfd_unsupported">এই ফোনে Wi-Fi Direct বন্ধ করা আছে। QR মোড ব্যবহার করুন।</string>
+    <string name="err_wfd_busy">Wi-Fi Direct ব্যস্ত (অন্য অ্যাপ বা হটস্পট ব্যবহার করছে)। QR মোড ব্যবহার করুন।</string>
+    <string name="err_wfd_failed">এই ফোনে Wi-Fi Direct কাজ করেনি। QR মোড ব্যবহার করুন।</string>
+    <string name="err_wfd_timeout">Wi-Fi Direct সময়মতো যুক্ত হয়নি। QR মোড ব্যবহার করুন।</string>
+    <string name="err_hotspot_incompatible">আগে সাধারণ মোবাইল হটস্পট বন্ধ করুন, তারপর আবার চেষ্টা করুন।</string>
+    <string name="err_hotspot_not_allowed">এই ফোনে হটস্পট চালুর অনুমতি নেই (ডিভাইস নীতি)। Wi-Fi Direct বা একই Wi-Fi ব্যবহার করুন।</string>
+    <string name="err_hotspot_failed">ফোনটি হটস্পট চালু করতে পারেনি। Wi-Fi বন্ধ করে আবার চালু করুন, তারপর চেষ্টা করুন।</string>
+    <string name="err_join_rejected">প্রাপকের হটস্পটে যুক্ত হওয়া যায়নি। Android জিজ্ঞেস করলে “Connect” চাপুন এবং কাছে থাকুন।</string>
+    <string name="err_join_failed">প্রাপকের হটস্পটে যুক্ত হওয়া যায়নি। Wi-Fi চালু আছে এবং QR কোড এখনও দেখাচ্ছে কিনা দেখুন।</string>
+    <string name="err_no_peer_address">অন্য ফোনটি তার ঠিকানা জানায়নি।</string>
+    <string name="err_peer_cancelled">অন্য ফোনটি বাতিল করেছে।</string>
+    <string name="err_no_answer">অন্য ফোনটি সময়মতো সাড়া দেয়নি।</string>
+    <string name="err_connection_lost">সংযোগ বিচ্ছিন্ন হয়েছে এবং আবার চালু করা যায়নি।</string>
+    <string name="err_could_not_connect">অন্য ফোনে পৌঁছানো যায়নি। QR কোড ব্যবহার করে দেখুন।</string>
+    <string name="err_key_mismatch">নিরাপত্তা যাচাই ব্যর্থ: এটি QR কোডের ফোন নয়। ট্রান্সফার থামানো হয়েছে।</string>
+    <string name="err_busy">অন্য ফোনটি আরেকটি ট্রান্সফারে ব্যস্ত।</string>
+    <string name="err_incompatible">দুই ফোনে DropLink-এর সংস্করণ মেলে না। দুটোই আপডেট করুন।</string>
+    <string name="err_other">কিছু একটা সমস্যা হয়েছে: %1$s</string>
+    <string name="qr_invalid">এটি DropLink-এর QR কোড নয়।</string>
+    <string name="scan_prompt">প্রাপকের ফোনের QR কোড স্ক্যান করুন</string>
+
+    <!-- Permissions -->
+    <string name="perm_nearby_title">কাছের Wi-Fi ডিভাইস</string>
+    <string name="perm_nearby_body_send">এতে DropLink Wi-Fi Direct দিয়ে কাছের ফোন খুঁজতে এবং প্রাপকের QR হটস্পটে যুক্ত হতে পারে। DropLink কখনও আপনার লোকেশন ব্যবহার করে না।</string>
+    <string name="perm_nearby_body_receive">এতে এই ফোনকে Wi-Fi Direct-এ খুঁজে পাওয়া যায় এবং একটি ব্যক্তিগত QR হটস্পট চালু করা যায়। DropLink কখনও আপনার লোকেশন ব্যবহার করে না।</string>
+    <string name="perm_location_body_send">Android 8–12-এ Wi-Fi Direct দিয়ে ফোন খোঁজা ও QR হটস্পটে যুক্ত হওয়ার জন্য লোকেশনের অনুমতি লাগে। DropLink কখনও আপনার লোকেশন পড়ে না বা সংরক্ষণ করে না।</string>
+    <string name="perm_location_body_receive">Android 8–12-এ Wi-Fi Direct ও QR হটস্পটের জন্য লোকেশনের অনুমতি লাগে। DropLink কখনও আপনার লোকেশন পড়ে না বা সংরক্ষণ করে না।</string>
+    <string name="perm_location_switch_title">লোকেশন চালু করুন</string>
+    <string name="perm_location_switch_body">Android 8–12 শুধু লোকেশন চালু থাকলেই কাছের Wi-Fi ডিভাইস খুঁজে পায়। ট্রান্সফারের পর আবার বন্ধ করতে পারেন।</string>
+    <string name="perm_camera_title">ক্যামেরা</string>
+    <string name="perm_camera_body">শুধু প্রাপকের QR কোড স্ক্যান করতে ব্যবহার হয়। কিছুই রেকর্ড বা সংরক্ষণ করা হয় না।</string>
+    <string name="perm_notifications_title">নোটিফিকেশন</string>
+    <string name="perm_notifications_body">বাতিল বোতামসহ ট্রান্সফারের অগ্রগতি দেখায়, এবং DropLink খোলা না থাকলেও আসা ফাইল গ্রহণ করতে দেয়।</string>
+    <string name="perm_storage_title">স্টোরেজ</string>
+    <string name="perm_storage_body">Android 8–9-এ আসা ফাইল Download/DropLink-এ সেভ করতে লাগে।</string>
+    <string name="perm_open_settings_hint">আগে আপনি এটি প্রত্যাখ্যান করেছেন। DropLink-এর সেটিংস → অনুমতি থেকে চালু করুন।</string>
+
+    <!-- History -->
+    <string name="history_title">ইতিহাস</string>
+    <string name="history_tab_files">ফাইল</string>
+    <string name="history_tab_speed">গতির লগ</string>
+    <string name="history_empty">এখনও কিছু নেই।</string>
+    <string name="history_sent">পাঠানো</string>
+    <string name="history_received">প্রাপ্ত</string>
+    <string name="history_clear">ইতিহাস মুছুন</string>
+    <string name="history_clear_body">শুধু তালিকা মুছবে। প্রাপ্ত ফাইল ফোনেই থাকবে।</string>
+    <string name="history_delete_title">%1$s ডিলিট করবেন?</string>
+    <string name="history_delete_file_body">ফাইলটি এই ফোন থেকে ডিলিট করবেন, নাকি শুধু ইতিহাসের তালিকা থেকে সরাবেন?</string>
+    <string name="history_delete_entry_body">এই এন্ট্রিটি ইতিহাস থেকে সরাবেন? মূল ফাইলে হাত দেওয়া হবে না।</string>
+    <string name="history_remove_entry_only">শুধু তালিকা থেকে সরান</string>
+    <string name="history_cant_open">ফাইলটি খোলা যাচ্ছে না (হয়তো সরানো বা ডিলিট করা হয়েছে)।</string>
+    <string name="history_actions">%1$s-এর অপশন</string>
+    <string name="history_speed_note">প্রতিটি ট্রান্সফারের মাপা গড় গতি। ৫ GHz-এ সরাসরি সংযোগ সাধারণত সবচেয়ে দ্রুত; রাউটারের মাধ্যমে ধীর।</string>
+
+    <!-- Settings -->
+    <string name="settings_title">সেটিংস</string>
+    <string name="settings_section_device">এই ফোন</string>
+    <string name="settings_device_name">ডিভাইসের নাম</string>
+    <string name="settings_device_name_hint">অন্য ফোনে দেখানো হয়</string>
+    <string name="settings_save_location">প্রাপ্ত ফাইল সেভ হবে</string>
+    <string name="settings_save_default">Download/DropLink</string>
+    <string name="settings_save_note">SD কার্ডসহ যেকোনো ফোল্ডার বেছে নিতে পারেন। DropLink কখনও পুরো স্টোরেজের অনুমতি চায় না।</string>
+    <string name="settings_section_trusted">বিশ্বস্ত ডিভাইস</string>
+    <string name="settings_auto_accept">বিশ্বস্ত ডিভাইস থেকে স্বয়ংক্রিয় গ্রহণ</string>
+    <string name="settings_auto_accept_hint">“সবসময় গ্রহণ” চিহ্নিত ফোনের জন্য অনুমতির ডায়ালগ দেখাবে না। শুরুতে বন্ধ থাকে।</string>
+    <string name="settings_no_trusted">কোনো বিশ্বস্ত ডিভাইস নেই। ফাইল গ্রহণের সময় “এই ফোন থেকে সবসময় গ্রহণ করুন” টিক দিন।</string>
+    <string name="settings_key">কী %1$s</string>
+    <string name="settings_untrust">%1$s-কে আর বিশ্বস্ত রাখবেন না</string>
+    <string name="settings_section_connection">সংযোগ মোড</string>
+    <string name="settings_mode_note">স্বয়ংক্রিয়: আগে সরাসরি ফোন-থেকে-ফোন সংযোগ (সবচেয়ে দ্রুত), তারপর একই Wi-Fi রাউটার, তারপর QR কোড।</string>
+    <string name="settings_section_appearance">চেহারা</string>
+    <string name="settings_theme">থিম</string>
+    <string name="theme_system">সিস্টেম অনুযায়ী</string>
+    <string name="theme_light">লাইট</string>
+    <string name="theme_dark">ডার্ক</string>
+    <string name="settings_language">ভাষা</string>
+    <string name="language_system">সিস্টেম অনুযায়ী</string>
+    <string name="settings_section_reliability">নির্ভরযোগ্যতা</string>
+    <string name="settings_setup_hint">আপনার ফোন ব্র্যান্ডের ব্যাটারি ও অটোস্টার্ট সেটিং</string>
+    <string name="selftest_title">সেলফ-টেস্ট চালান</string>
+    <string name="selftest_hint">এনক্রিপ্টেড সংযোগে নিজেকেই ৩২ MB পাঠিয়ে আসল ট্রান্সফারের মতো সেভ করে, ফোনটি পরীক্ষা করতে।</string>
+    <string name="selftest_ok">পাস · এই ফোনে %1$s</string>
+    <string name="selftest_failed">ব্যর্থ: %1$s</string>
+    <string name="about_version">DropLink %1$s</string>
+    <string name="about_body">অফলাইন ফাইল শেয়ারিং। ইন্টারনেট, অ্যাকাউন্ট, বিজ্ঞাপন বা ট্র্যাকিং নেই।</string>
+
+    <!-- Phone setup -->
+    <string name="setup_title">ফোন সেটআপ</string>
+    <string name="setup_detected">শনাক্ত হয়েছে: %1$s</string>
+    <string name="setup_intro">কিছু ফোন ব্যাটারি বাঁচাতে ব্যাকগ্রাউন্ডে অ্যাপ বন্ধ করে দেয়, ফলে ট্রান্সফার কেটে যায়। এই ধাপগুলো একবার করে নিন।</string>
+    <string name="setup_battery_title">১. ব্যাটারি অপটিমাইজেশন</string>
+    <string name="setup_battery_body">DropLink-কে ব্যাটারি সীমাবদ্ধতা ছাড়া চলতে দিন।</string>
+    <string name="setup_battery_done">সম্পন্ন: DropLink-এ ব্যাটারি সীমাবদ্ধতা নেই।</string>
+    <string name="setup_battery_action">সীমাবদ্ধতা তুলে দিন</string>
+    <string name="setup_autostart_title">২. অটোস্টার্ট ও ব্যাকগ্রাউন্ড</string>
+    <string name="setup_autostart_action">অটোস্টার্ট সেটিং খুলুন</string>
+    <string name="setup_app_settings_action">অ্যাপ সেটিং খুলুন</string>
+    <string name="setup_lock_title">৩. সাম্প্রতিক অ্যাপে DropLink লক করুন</string>
+    <string name="setup_lock_body">সাম্প্রতিক অ্যাপের স্ক্রিন খুলুন, DropLink চেপে ধরুন (বা নিচে টানুন) এবং লক আইকনে চাপুন, যাতে “সব মুছুন” দিলেও বন্ধ না হয়।</string>
+    <string name="setup_wifi_body">Wi-Fi Direct ও QR মোডের জন্য দরকার।</string>
+    <string name="setup_footer">ROM সংস্করণভেদে মেনুর নাম আলাদা হয়। কোনো বোতাম ভুল স্ক্রিন খুললে সেটিংসে “Autostart”, “App launch”, “Background activity” বা “Battery” খুঁজুন।</string>
+
+    <string name="oem_xiaomi">Xiaomi / Redmi / POCO</string>
+    <string name="oem_huawei">Huawei</string>
+    <string name="oem_honor">Honor</string>
+    <string name="oem_oppo">OPPO / realme / OnePlus</string>
+    <string name="oem_vivo">vivo / iQOO</string>
+    <string name="oem_samsung">Samsung</string>
+    <string name="oem_transsion">Tecno / Infinix / itel</string>
+    <string name="oem_other">আপনার ফোন</string>
+    <string name="oem_steps_xiaomi">Security অ্যাপ → Permissions → Autostart → DropLink চালু করুন। তারপর Settings → Apps → DropLink → Battery saver → “No restrictions”।</string>
+    <string name="oem_steps_huawei">Phone Manager → App launch → DropLink → “Manage automatically” বন্ধ করে Auto-launch, Secondary launch ও Run in background চালু করুন।</string>
+    <string name="oem_steps_honor">Settings → Battery → App launch → DropLink → ম্যানুয়ালে নিয়ে তিনটি অপশনই চালু করুন।</string>
+    <string name="oem_steps_oppo">Settings → Apps → DropLink → Battery usage → ব্যাকগ্রাউন্ড অ্যাক্টিভিটি ও auto launch চালু করুন। পুরোনো ColorOS-এ: Phone Manager → Privacy permissions → Startup manager।</string>
+    <string name="oem_steps_vivo">i Manager → App manager → Autostart → DropLink চালু করুন। Settings → Battery → Background power consumption → DropLink-কে অনুমতি দিন।</string>
+    <string name="oem_steps_samsung">Settings → Battery → Background usage limits → DropLink যেন “Sleeping apps” বা “Deep sleeping apps”-এ না থাকে।</string>
+    <string name="oem_steps_transsion">Phone Master → App management → Auto-start → DropLink চালু করুন। সাম্প্রতিক অ্যাপে DropLink লকও করে রাখুন।</string>
+    <string name="oem_steps_other">Settings → Apps → DropLink → Battery → Unrestricted। ফোনে Autostart মেনু থাকলে সেখানেও DropLink চালু করুন।</string>
+
+    <!-- Notifications -->
+    <string name="channel_active">চলমান ট্রান্সফার</string>
+    <string name="channel_requests">ফাইল গ্রহণের অনুরোধ</string>
+    <string name="channel_finished">সম্পন্ন ট্রান্সফার</string>
+    <string name="notif_sending_to">%1$s-এ পাঠানো হচ্ছে</string>
+    <string name="notif_receiving_from">%1$s থেকে আসছে</string>
+    <string name="notif_progress_detail">%2$s-এর মধ্যে %1$s · %3$s · %4$s</string>
+    <string name="notif_ready_title">গ্রহণের জন্য প্রস্তুত</string>
+    <string name="notif_ready_text">“%1$s” নামে দেখা যাচ্ছে</string>
+
+    <!-- Quick Settings tile -->
+    <string name="tile_label">DropLink গ্রহণ</string>
+    <string name="tile_on">চালু</string>
+    <string name="tile_off">বন্ধ</string>
+    <string name="tile_on_cd">DropLink গ্রহণ মোড চালু। বন্ধ করতে চাপুন।</string>
+    <string name="tile_off_cd">DropLink গ্রহণ মোড বন্ধ। চালু করতে চাপুন।</string>
+
+    <plurals name="file_count">
+        <item quantity="one">%dটি ফাইল</item>
+        <item quantity="other">%dটি ফাইল</item>
+    </plurals>
+    <plurals name="files_done">
+        <item quantity="one">%2$dটির মধ্যে %1$dটি ফাইল</item>
+        <item quantity="other">%2$dটির মধ্যে %1$dটি ফাইল</item>
+    </plurals>
+
+    <!-- Diagnostics -->
+    <string name="diag_copy">ডায়াগনস্টিক লগ কপি করুন</string>
+    <string name="diag_copy_hint">কিছু ব্যর্থ হলে এটি কপি করে ডেভেলপারকে পাঠান। এতে ফাইলের কোনো বিষয়বস্তু নেই।</string>
+    <string name="diag_copied">লগ কপি হয়েছে</string>
+    <string name="receive_direct_band">%1$s-এ সরাসরি নেটওয়ার্ক</string>
+    <string name="receive_direct_slow_band">এই ফোন শুধু ২.৪ GHz চালু করতে পেরেছে, তাই গতি কম হতে পারে।</string>
+    <!-- USB cable mode -->
+    <string name="mode_usb">USB কেবল</string>
+    <string name="usb_tip_title">সবচেয়ে দ্রুত: USB কেবল লাগান</string>
+    <string name="usb_tip_body">USB-C থেকে USB-C কেবল (বা OTG অ্যাডাপ্টার) দিয়ে দুটি ফোন যুক্ত করুন এবং দুটিতেই DropLink খুলুন। ধীর Wi-Fi-এর ফোনেও কেবলে ১০+ MB/সে গতি পাওয়া যায়।</string>
+    <string name="usb_permission_title">USB ব্যবহারের অনুমতি দিন</string>
+    <string name="usb_permission_body">দুই ফোনেই USB ডায়ালগে “OK” / “Allow” চাপুন। ডায়ালগ না দেখালে কেবল খুলে আবার লাগান।</string>
+    <string name="usb_connecting">USB-তে যুক্ত হচ্ছে…</string>
+    <string name="usb_connecting_body">দুটি ফোনই আনলক রাখুন। অন্য ফোনটি DropLink খুলতে চাইতে পারে: OK চাপুন।</string>
+    <string name="usb_open_app_body">অন্য ফোনে DropLink খুলুন এবং USB অ্যাক্সেসরি ব্যবহারের অনুমতি দিন।</string>
+    <string name="usb_connected_to">USB কেবল: %1$s</string>
+    <string name="usb_tap_receive_body">ওই ফোনে Receive চাপুন, তারপর এখান থেকে পাঠান।</string>
+    <string name="usb_ready_body">প্রস্তুত। কেবলে পাঠাতে নিচে তার নামে চাপুন।</string>
+    <string name="usb_failed">USB কেবল কাজ করেনি</string>
+    <string name="usb_not_connected">কোনো কেবল যুক্ত নেই</string>
+</resources>

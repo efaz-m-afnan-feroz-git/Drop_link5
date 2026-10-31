@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Android 8–9: received files live in public Download/DropLink -->
+    <external-path name="downloads" path="Download/" />
+    <cache-path name="cache" path="." />
+</paths>
